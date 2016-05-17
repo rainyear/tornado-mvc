@@ -25,7 +25,8 @@ class Application(tornado.web.Application):
             default_handler_class = NotFound
         )
         super().__init__(handlers=router, **{**default, **settings})
-        self.model = DB(Env)
+        # service start mongod 
+        # self.model = DB(Env)
 
 def main():
     router = [
