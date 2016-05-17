@@ -30,7 +30,7 @@ Tornado x MVC
 git clone https://github.com/rainyear/tornado-mvc.git
 cd tornado-mvc/
 python3 -m venv venv3
-source venv3/bin/active
+source venv3/bin/activate
 pip install -r requirements.txt
 
 python app.py --env=dev
